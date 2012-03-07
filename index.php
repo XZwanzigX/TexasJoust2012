@@ -3,12 +3,8 @@
    <title>Lysts on the Lake</title>
        <link rel="stylesheet" type="text/css" href="css/styles.css"/>
 	   
-        <link type="text/css" href="css/jquery.jscrollpane.css" rel="stylesheet" media="all" />
-        <link rel="stylesheet" href="css/scrollbar.css" type="text/css" media="all"/>
         <link rel="stylesheet" href="css/textStyles.css" type="text/css" media="all"/>
-	  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
-	  <script type="text/javascript" src="js/jquery.mousewheel.js"></script>
-        <script type="text/javascript" src="js/jquery.jscrollpane.min.js"></script>
+	  <script type="text/javascript" src="js/jquery-1.2.6.min.js"></script>
        <script type="text/javascript" src="js/fadeslideshow.js">
        /***********************************************
        * Ultimate Fade In Slideshow v2.0- (c) Dynamic Drive DHTML code library (www.dynamicdrive.com)
@@ -33,11 +29,7 @@
    
    <body class="bodyBg">
      <div id="content" class="contentPane">
-      <?php include("template/top.htm"); ?>
 
-      <!--<img src="img/template/mastheadHome.jpg">-->
-	  <img src="img/newImgs/HomeBlankNoNav2.jpg">
-      <img src="img/template/lBarH.jpg" style="position:absolute; top:315px; left:0px;">
 	  <div id="mainText" class="homePageContentPane">
 	    <div id="contentTxt" class="homePageText">
 			<div id="winners" class="winnerPane">

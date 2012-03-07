@@ -5,6 +5,19 @@
    font-weight: bold;
    color:#CA0F0B;
 }
+.home-heading {
+    font-family: trebuchet, arial, sans-serif;
+    font-size: 32pt;
+    font-weight: bold;
+    text-align: center;
+}
+
+.home-em {
+    font-family: trebuchet, arial, sans-serif;
+    font-size:32pt;
+    font-style: italic;
+    text-align: center;
+}
 
 .boldTextCell {
     font-weight: bold;
@@ -134,4 +147,14 @@
 
 a:hover {
     text-decoration: underline;
+}
+
+P {
+    text-align: left;
+}
+
+.copyright {
+    font-family: arial, helvetica, sans-serif;
+    font-size: 10pt;
+    text-align: center;
 }
