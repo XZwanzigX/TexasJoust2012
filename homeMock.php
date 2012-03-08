@@ -7,10 +7,9 @@
     </head>
 
     <body class="home-body">
-<!--        <div style="position:absolute; top:0px; left: 0px; height: 2000px;">-->
             <img src="img/template/blank.png" style="position:absolute; top: 1999px;">
 
-            <div style="position: relative; width: 860px; margin: 770px auto 0;">
+            <div class="home-content-pane">
                 <?php include('template/nav.php'); ?>
                 <p style="text-align: center;"><span class="home-heading">COMPETITIVE JOUSTING</span><br>
 
@@ -21,12 +20,14 @@
 
                 <p><em>Lysts on the Lake</em> is the largest competitive jousting tournament in the world today where the top ranked men and women jousters come to test their skills against their peers in the hardest hitting sport in the world!  Only the finest equestrians, trained in the medieval martial arts of jousting, melee and skill-at-arms are part of this prestigious event.
 
-                <p>The armour is real!         <span style="position: relative; left:200px;">The lances are real!</span>         <span style="position: relative; left: 320px;">The competition is real!</span>
+                <p> <span style="position: relative; left:40px;">The armour is real!</span>         <span style="position: relative; left:200px;">The lances are real!</span>         <span style="position: relative; left: 320px;">The competition is real!</span>
 
                 <div style="text-align: center;">
                     <iframe width="640" height="360" src="http://www.youtube.com/embed/UYhdz1bPTAE" frameborder="0" allowfullscreen></iframe>
                 </div>
-
+                <div class="floating-slideshow">
+                    <img src="img/newSlideshow/BE3E9631.jpg"/>
+                </div>
                 <p>You will not have a more exciting, intense sporting experience anywhere else this year!
 
                 <p>Join us on Friday, May 11, Saturday, May 12 and Sunday, May 13 to experience the thrill of competitive jousting...the original extreme sport!
@@ -37,11 +38,11 @@
 
                 <p>Mark your calendars now and save the weekend of May 11th for the <em>Lysts on the Lake</em>!  You will be glad you did!
 
-
-            </div>
-<!--        </div>-->
-            <div style="position: relative; text-align: center; margin: 0 auto; top: 8px;">
                 <?php include('template/foot.php'); ?>
             </div>
+
+           <!-- <div style="position: relative; text-align: center; margin: 0 auto;">
+                <?php /*include('template/foot.php'); */?>
+            </div>-->
     </body>
 </html>
