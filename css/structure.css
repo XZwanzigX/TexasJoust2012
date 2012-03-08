@@ -1,13 +1,27 @@
 .home-body {
-    background: url("../img/template/bg/homeBG1.jpg") no-repeat scroll center top transparent;
+    background: url("../img/template/bg/homeBG.jpg") no-repeat scroll center top transparent;
     font-family: trebuchet,arial,sans-serif;
     font-size: 14pt;
     text-align: center;
 }
+
+.other-page-body {
+    background: url("../img/template/bg/otherPageBG.jpg") no-repeat scroll center top transparent;
+    font-family: trebuchet,arial,sans-serif;
+    font-size: 14pt;
+    text-align: center;
+}
+
 .home-content-pane {
     position: relative;
     width: 860px;
     margin: 785px auto 0;
+}
+
+.other-pane-text {
+    position: relative;
+    width: 860px;
+    margin: 105px auto 0;
 }
 
 .aPlaisanceLogo {

@@ -1,10 +1,13 @@
 <html>
     <head>
         <title>Lysts on the Lake 2012 - Other pages</title>
+        <link rel="stylesheet" href="css/structure.css"/>
+        <link rel="stylesheet" href="css/textStyles.css"/>
+        <link rel="stylesheet" href="css/nav.css"/>
     </head>
-    <body style="background-image: url('Master/pieces/OtherPageBG.jpg'); background-position: top center; background-repeat: no-repeat;">
-        <div style="position:absolute; top:0px; left: 0px; height: 2000px;">
-            <img src="Master/pieces/menu/social/fb.png" style="position:absolute; top:230px; left: 600px;"/>
+    <body class="other-page-body">
+        <div class="other-page-text">
+            <p>wokka wokka
         </div>
     </body>
 </html>

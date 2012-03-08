@@ -4,6 +4,9 @@
         <link rel="stylesheet" href="css/structure.css"/>
         <link rel="stylesheet" href="css/textStyles.css"/>
         <link rel="stylesheet" href="css/nav.css"/>
+        <script type="text/javascript" src="js/jquery-1.2.6.min.js"></script>
+        <script type="text/javascript" src="js/fadeslideshow.js"></script>
+        <script type="text/javascript" src="js/slideshow.js"></script>
     </head>
 
     <body class="home-body">
@@ -25,8 +28,7 @@
                 <div style="text-align: center;">
                     <iframe width="640" height="360" src="http://www.youtube.com/embed/UYhdz1bPTAE" frameborder="0" allowfullscreen></iframe>
                 </div>
-                <div class="floating-slideshow">
-                    <img src="img/newSlideshow/BE3E9631.jpg"/>
+                <div class="floating-slideshow" id="homeSlideshow">
                 </div>
                 <p>You will not have a more exciting, intense sporting experience anywhere else this year!
 
