@@ -3,24 +3,6 @@
 		<title>Lysts on the Lake : Competitors</title>
         <link rel="stylesheet" href="css/styles.css" type="text/css">
 		<link rel="stylesheet" href="css/textStyles.css" type="text/css">
-        <link type="text/css" href="css/jquery.jscrollpane.css" rel="stylesheet" media="all" />
-        <link rel="stylesheet" href="css/scrollbar.css" type="text/css" media="all"/>
-        <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js">
-        </script>
-
-        <script type="text/javascript" src="js/jquery.mousewheel.js"></script>
-        <script type="text/javascript" src="js/jquery.jscrollpane.min.js"></script>
-
-        <script type="text/javascript">
-            $(function()
-            {
-                $('.competitorBodyText').jScrollPane({
-                    showArrows:true,
-                    verticalDragMinHeight: 28,
-			        verticalDragMaxHeight: 28
-                });
-            });
-        </script>
 	</head>
 
 	<body class="bodyBg">
@@ -43,7 +25,6 @@
 							</div>
 						</div>
 					</td>
-					<td><img src="img/template/rBar.jpg"></td>
 			</tr>
 			</table>
 			<?php include("template/btm.htm"); ?>
