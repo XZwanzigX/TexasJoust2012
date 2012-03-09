@@ -1,33 +1,32 @@
 <html>
 	<head>
 		<title>Lysts on the Lake : Competitors</title>
-        <link rel="stylesheet" href="css/styles.css" type="text/css">
-		<link rel="stylesheet" href="css/textStyles.css" type="text/css">
-	</head>
-
-	<body class="bodyBg">
-		<div id="content" class="contentPane">
-			<?php include("template/top.htm"); ?>
-			<table border="0" cellpadding="0" cellspacing="0">
-			   <tr>
-                    <td><img src="img/template/lBar.jpg"></td>
-			        <td>
-						<div id="bodyContainer" style="width:579px; height:517px; background-image:url('img/template/bg.jpg');">
-							<img src="img/headings/competitors.jpg" style="position:relative;left:160px;">
-							<div id="bodyText" class="competitorBodyText">
-						        <table>
-                                    <?php
-				                        include '../db/dbConfig.php';
-				                        include '../db/dbConnection.php';
-                                        include '../db/retrieveCompetitors.php';
-                                    ?>
-						        </table>
-							</div>
-						</div>
-					</td>
-			</tr>
-			</table>
-			<?php include("template/btm.htm"); ?>
-		</div>
-	</body>
+        <link rel="stylesheet" href="css/structure.css"/>
+        <link rel="stylesheet" href="css/textStyles.css"/>
+        <link rel="stylesheet" href="css/nav.css"/>
+    </head>
+    <body class="other-page-body">
+    <img src="img/template/blank.png" class="bottom-page">
+    <div class="other-page-text">
+        <table style="position: relative; margin: 0 auto;">
+            <tr>
+                <td class="competitorName"><img src="img/competitors/thumbnails/DawnHemphill.png" class="competitorThumbnail"/><br>Dawn Hemphill<br>Lady of Honour</td>
+                <td class="competitorName">
+                    <img src="img/competitors/thumbnails/MichaelCarroll.png" class="competitorThumbnail"/><br>Michael Carroll<br>King of Arms
+                </td>
+            </tr>
+        </table>
+        <img src="img/headings/competitors.png" style="position: relative; margin: 0 auto;"/>
+        <table>
+            <?php
+            include '../db/dbConfig.php';
+            include '../db/dbConnection.php';
+            include '../db/retrieveCompetitors.php';
+            ?>
+            <td colspan="5">
+                <a href="http://www.aplaisance.com" onmouseover="document.aPlaisance.src='img/template/nav/aPlaisanceGlow.png';" onmouseout="document.aPlaisance.src='img/template/nav/aPlaisance.png'"><img src="img/template/nav/aPlaisance.png" name="aPlaisance" border="0"></a>
+            </td></tr>
+        </table>
+    </div>
+    </body>
 </html>

@@ -10,7 +10,7 @@
     </head>
 
     <body class="home-body">
-            <img src="img/template/blank.png" style="position:absolute; top: 1999px;">
+            <img src="img/template/blank.png" class="bottom-page">
 
             <div class="home-content-pane">
                 <?php include('template/nav.php'); ?>

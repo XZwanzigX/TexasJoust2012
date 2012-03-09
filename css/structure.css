@@ -21,7 +21,7 @@
 .other-page-text {
     position: relative;
     width: 860px;
-    margin: 328px auto 0;
+    margin: 270px auto 0;
 }
 
 .aPlaisanceLogo {
@@ -35,4 +35,9 @@
     left: 104px;
     top:  64px;
     width: 237px;
+}
+
+.bottom-page {
+    position:absolute;
+    top: 1999px;
 }
