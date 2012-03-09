@@ -23,10 +23,13 @@
             include '../db/dbConnection.php';
             include '../db/retrieveCompetitors.php';
             ?>
-            <td colspan="5">
+            <!--<td colspan="5">
                 <a href="http://www.aplaisance.com" onmouseover="document.aPlaisance.src='img/template/nav/aPlaisanceGlow.png';" onmouseout="document.aPlaisance.src='img/template/nav/aPlaisance.png'"><img src="img/template/nav/aPlaisance.png" name="aPlaisance" border="0"></a>
-            </td></tr>
+            </td>--></tr>
         </table>
+        <a href="http://www.aplaisance.com" onmouseover="document.aPlaisance.src='img/template/nav/aPlaisanceGlow.png';" onmouseout="document.aPlaisance.src='img/template/nav/aPlaisance.png'">
+            <img src="img/template/nav/aPlaisance.png" name="aPlaisance" border="0" style="position: relative; margin:0 auto; top: -57px;">
+        </a>
     </div>
     </body>
 </html>
