@@ -27,14 +27,22 @@
 .aPlaisanceLogo {
     margin: 0 auto;
 }
+
+.slideshow-container {
+    float:right;
+    position:relative;
+    width: 238px;
+    height: 331px;
+
+}
 .floating-slideshow {
     border: 7px solid #2A1E08;
     border-radius: 5px 5px 5px 5px;
     float: right;
     position: relative;
-    left: 104px;
-    top:  64px;
-    width: 237px;
+    left: 63px;
+    top:  99px;
+    width: 200px;
 }
 
 .bottom-page {

@@ -28,7 +28,9 @@
                 <div style="text-align: center;">
                     <iframe width="640" height="360" src="http://www.youtube.com/embed/UYhdz1bPTAE" frameborder="0" allowfullscreen></iframe>
                 </div>
-                <div class="floating-slideshow" id="homeSlideshow">
+                <div class="slideshow-container">
+                    <div class="floating-slideshow" id="homeSlideshow">
+                    </div>
                 </div>
                 <p>You will not have a more exciting, intense sporting experience anywhere else this year!
 
@@ -42,9 +44,5 @@
 
                 <?php include('template/foot.php'); ?>
             </div>
-
-           <!-- <div style="position: relative; text-align: center; margin: 0 auto;">
-                <?php /*include('template/foot.php'); */?>
-            </div>-->
     </body>
 </html>

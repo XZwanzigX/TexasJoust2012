@@ -1,6 +1,6 @@
 var mygallery=new fadeSlideShow({
 	wrapperid: "homeSlideshow", //ID of blank DIV on page to house Slideshow
-	dimensions: [238, 331], //width/height of gallery in pixels. Should reflect dimensions of largest image
+	dimensions: [200, 279], //width/height of gallery in pixels. Should reflect dimensions of largest image
 	imagearray: [
             ["img/newSlideshow/BE3E9572.jpg"],
             ["img/newSlideshow/BE3E9629.jpg"],

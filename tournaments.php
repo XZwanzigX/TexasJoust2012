@@ -6,10 +6,9 @@
         <link rel="stylesheet" href="css/structure.css" type="text/css"/>
 	</head>
 
-    <body class="bodyBg">
-    <div id="content" class="contentPane">
-        <img src="img/headings/tournaments.jpg" style="position:relative;left:160px;">
-        <div id="bodyText" class="regularBodyText">
+    <body class="other-page-body">
+    <div id="content" class="other-page-text">
+        <img src="img/headings/tournaments.jpg" style="position:relative; margin: 0 auto;">
             <p><i>Lysts on the Lake</i> is a challenge tournament consisting of 3 competitions over 3 days:<br>
             <p>-       Joust a'Plaisance<br>
                 -       Melee a' Cheval<br>
