@@ -1,0 +1,47 @@
+.home-menu-button {
+    border: 0 none;
+    left: -24px;
+    position: absolute;
+    top: -92px;
+}
+.about-menu-button {
+    border: 0 none;
+    left: 57px;
+    position: absolute;
+    top: -91px;
+}
+.galleries-menu-button {
+    border: 0 none;
+    left: 145px;
+    position: absolute;
+    top: -89px;
+}
+.special-info-menu-button {
+    left: 257px;
+    position: absolute;
+    top: -90px;
+}
+.sponsors-menu-button {
+    border: 0 none;
+    left: 382px;
+    position: absolute;
+    top: -85px;
+}
+.contact-menu-button {
+    border: 0 none;
+    left: 527px;
+    position: absolute;
+    top: -82px;
+}
+.directions-menu-button {
+    border: 0 none;
+    left: 656px;
+    position: absolute;
+    top: -81px;
+}
+.tickets-menu-button {
+    border: 0 none;
+    left: 767px;
+    position: absolute;
+    top: -79px;
+}

@@ -7,7 +7,7 @@
     </head>
     <body class="other-page-body">
     <img src="img/template/blank.png" class="bottom-page">
-    <div class="other-page-text">
+    <div class="competitor-page-text">
         <table style="position: relative; margin: 0 auto;">
             <tr>
                 <td class="competitorName"><img src="img/competitors/thumbnails/DawnHemphill.png" class="competitorThumbnail"/><br>Dawn Hemphill<br>Lady of Honour</td>

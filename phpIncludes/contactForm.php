@@ -2,7 +2,7 @@
         if(!array_key_exists("hidContact",$_POST)) {?>
 	   <form method="POST" name="contactForm" action=<?php echo htmlentities($_SERVER['PHP_SELF']); ?>>
 	      <input type="hidden" name="hidContact" value="1">
-              <table border="0">
+              <table border="0" class="centered-element">
 	          <tr>
                      <td align="right" class="boldText">Name</td>
 		        <td><input type="text" name="txtName"></td>
@@ -26,11 +26,12 @@
   <?php }
         else {
 	  $to = "info@texasjoust.com";
-//	  $to = "foxfire@evilcupcakes.net";
+	  $webmaster = "webmaster@aplaisance.com";
 	  $subject = $_POST["txtName"] . " has sent you a message via LystsOnTheLake.com!";
 	  $message = "Phone number: " . $_POST["txtPhone"] . "\n" . stripslashes($_POST["txtMsg"]);
 	  $from = "From: " . $_POST["txtEmail"] . "\r\n";
 	  
 	  mail($to, $subject, $message, $from);
+      mail($webmaster, $subject, $message, $from);
 	  echo("<p class=\"homePageText\">Thank you for your inquiry!<br>  We'll get back to you via phone or email as soon as possible!<br><br>Steve Hemphill<br>Executive Producer Lysts on the Lake</p></p>");
 	}?>

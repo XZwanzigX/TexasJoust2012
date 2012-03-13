@@ -7,7 +7,7 @@
 	</head>
 
     <body class="other-page-body">
-    <div id="content" class="other-page-text">
+    <div id="content" class="competitor-page-text">
         <img src="img/headings/tournaments.jpg" style="position:relative; margin: 0 auto;">
             <p><i>Lysts on the Lake</i> is a challenge tournament consisting of 3 competitions over 3 days:<br>
             <p>-       Joust a'Plaisance<br>

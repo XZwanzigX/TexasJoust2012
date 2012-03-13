@@ -18,10 +18,16 @@
     margin: 785px auto 0;
 }
 
-.other-page-text {
+.competitor-page-text {
     position: relative;
     width: 860px;
     margin: 270px auto 0;
+}
+
+.other-page-text {
+    margin: 322px auto 0;
+    position: relative;
+    width: 860px;
 }
 
 .aPlaisanceLogo {
@@ -48,4 +54,9 @@
 .bottom-page {
     position:absolute;
     top: 1999px;
+}
+
+.centered-element {
+    position: relative;
+    margin: 0 auto;
 }
