@@ -6,16 +6,6 @@
 	height:383px;
 	overflow:auto;
 }
-.homePageContentPane {
-    width:761px; 
-    height:470px; 
-    position: absolute; /*relative;*/
-    left:199px; 
-    top: 315px; 
-    background-image:url('../img/template/homeBg.jpg'); 
-    padding:0;
-    overflow:auto;
-}
 
 .homePageText {
     text-align:justify; 
@@ -42,18 +32,6 @@
     border-color:#2A1E08; 
     width:238px;
     height:331px;
-}
-
-.regularBody{
-    width:579px; 
-    height:517px; 
-    background-image:url('../img/template/bg.jpg'); 
-    padding: 0;
-    border:0;
-    overflow:auto; 
-    position:absolute; 
-    left:200px; 
-    top:185px;
 }
 
 .regularBodyText{

@@ -1,55 +1,48 @@
 <html>
-   <head>
-   <title>Lysts on the Lake</title>
-       <link rel="stylesheet" type="text/css" href="css/styles.css"/>
-	   
-        <link rel="stylesheet" href="css/textStyles.css" type="text/css" media="all"/>
-	  <script type="text/javascript" src="js/jquery-1.2.6.min.js"></script>
-       <script type="text/javascript" src="js/fadeslideshow.js">
-       /***********************************************
-       * Ultimate Fade In Slideshow v2.0- (c) Dynamic Drive DHTML code library (www.dynamicdrive.com)
-       * This notice MUST stay intact for legal use
-       * Visit Dynamic Drive at http://www.dynamicdrive.com/ for this script and 100s more
-       ***********************************************/
-       </script>
-       <script type="text/javascript" src="js/slideshow.js"></script>
+    <head>
+        <title>Lysts on the Lake 2012</title>
+        <link rel="stylesheet" href="css/structure.css"/>
+        <link rel="stylesheet" href="css/textStyles.css"/>
+        <link rel="stylesheet" href="css/nav.css"/>
+        <script type="text/javascript" src="js/jquery-1.2.6.min.js"></script>
+        <script type="text/javascript" src="js/fadeslideshow.js"></script>
+        <script type="text/javascript" src="js/slideshow.js"></script>
+    </head>
 
-	   <script type="text/javascript">
-            $(function()
-            {
-                $('.winnerPane').jScrollPane({
-                    showArrows:true,
-                    verticalDragMinHeight: 28,
-			        verticalDragMaxHeight: 28
-                });
-            });
-        </script>
+    <body class="home-body">
+            <img src="img/template/blank.png" class="bottom-page">
 
-   </head>
-   
-   <body class="bodyBg">
-     <div id="content" class="contentPane">
+            <div class="home-content-pane">
+                <?php include('template/nav.php'); ?>
+                <p style="text-align: center;"><span class="home-heading">COMPETITIVE JOUSTING</span><br>
 
-	  <div id="mainText" class="homePageContentPane">
-	    <div id="contentTxt" class="homePageText">
-			<div id="winners" class="winnerPane">
-				<p>Lysts on the Lake is the largest competitive jousting tournament in world today.  This is not a renaissance festival or dinner theater stunt show but a real competitive sporting event. The finest horsemen and women trained in the medieval equestrian martial arts travel from around the world to be a part of this prestigious event.
-				<p>Join us at the <a href="http://www.taylorrodeo.com/" class="textLink" target="_new">Taylor Rodeo Association</a> arena in Taylor, Texas and experience competitive jousting.....the original extreme sport!
-				
-				<p>The armour is real!
-				<br>The lances are real!
-				<br>The competition is real!
+                You have seen it on National Geographic.  You have seen it on the History Channel.<br>
+                <span class="home-em">Now see it Live and in Person!</span>
 
-                <p style="font-size:18px; text-align: center;">Click <a href="http://youtu.be/UYhdz1bPTAE" class="textLink">here</a> to see last year's highlight video!</p>
-			</div>
-		</div>
-    </div>
+                <p>For three days only, May 11, 12 and 13, 2012, the top jousters from around the world will be in Taylor, Texas to compete in the <em>Lysts on the Lake</em>, the world's largest competitive jousting tournament.
 
-       <div id="homeSlideshow" class="slideshow"></div>
-       <div id="galleryButton" class="galleryButton">
-           <!--<a href="gallery.php" onMouseOver="document.gallery.src='img/template/nav/galleryGlow.png';" onMouseOut="document.gallery.src='img/template/nav/gallery.png';"><img src="img/template/nav/gallery.png" name="gallery" style="border:0;"/></a>-->
-       </div>
-     <?php include("template/btmH.htm"); ?>
-	 </div>
-   </body>
+                <p><em>Lysts on the Lake</em> is the largest competitive jousting tournament in the world today where the top ranked men and women jousters come to test their skills against their peers in the hardest hitting sport in the world!  Only the finest equestrians, trained in the medieval martial arts of jousting, melee and skill-at-arms are part of this prestigious event.
+
+                <p> <span style="position: relative; left:40px;">The armour is real!</span>         <span style="position: relative; left:200px;">The lances are real!</span>         <span style="position: relative; left: 320px;">The competition is real!</span>
+
+                <div style="text-align: center;">
+                    <iframe width="640" height="360" src="http://www.youtube.com/embed/UYhdz1bPTAE" frameborder="0" allowfullscreen></iframe>
+                </div>
+                <div class="slideshow-container">
+                    <div class="floating-slideshow" id="homeSlideshow">
+                    </div>
+                </div>
+                <p>You will not have a more exciting, intense sporting experience anywhere else this year!
+
+                <p>Join us on Friday, May 11, Saturday, May 12 and Sunday, May 13 to experience the thrill of competitive jousting...the original extreme sport!
+
+                <p><em>Lysts on the Lake</em> will provide you with a unique, up-close-and-personal, equestrian experience that you will never forget.
+
+                <p><em>Lysts on the Lake</em> is a great family activity as well!  Jousting was the sport of knights where chivalry and honour were of primary importance.  Your children will love meeting the horses and jousters in a completely family-friendly environment.
+
+                <p>Mark your calendars now and save the weekend of May 11th for the <em>Lysts on the Lake</em>!  You will be glad you did!
+
+                <?php include('template/foot.php'); ?>
+            </div>
+    </body>
 </html>
