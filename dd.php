@@ -8,7 +8,7 @@
         <script src="js/jquery-1.2.6.min.js"></script>
         <script src="js/dropMenu.js"></script>
     </head>
-    <body class="other-page-body">
+    <body>
         <img src="img/template/blank.png" class="bottom-page">
         <?php include('template/ddNav.php'); ?>
     </body>

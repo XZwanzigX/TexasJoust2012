@@ -1,4 +1,4 @@
-body {font-family:arial; font-size:11px;}
+body {font-family:arial; font-size:14px;}
 .clear {clear:both}
 /* remove the list style */
 #nav {
@@ -13,8 +13,6 @@ body {font-family:arial; font-size:11px;}
 #nav li {
     float:left;
     display:block;
-    width:100px;
-    background:#ccc;
     position:relative;
     z-index:500;
     margin:0 1px;
@@ -25,21 +23,16 @@ body {font-family:arial; font-size:11px;}
     display:block;
     padding:8px 5px 0 5px;
     font-weight:700;
-    height:23px;
     text-decoration:none;
-    color:#fff;
-    text-align:center;
+    text-align:left;
     color:#333;
 }
 
 #nav li a:hover {
-    color:#fff;
+    color:#ffffff;
 }
 
-/* you can make a different style for default selected value */
-#nav a.selected {
-    color:#f00;
-}
+
 
 /* submenu, it's hidden by default */
 #nav ul {
@@ -53,8 +46,9 @@ body {font-family:arial; font-size:11px;}
 
 #nav ul li {
     text-align: left;
-    width: 500px;
+    width: 400px;
     float:left;
+    background-color:#A1682B;
     border-top:1px solid #fff;
 }
 
@@ -63,7 +57,7 @@ body {font-family:arial; font-size:11px;}
     display:block;
     height:15px;
     padding: 8px 5px;
-    color:#666;
+    /*color:#666;*/
 }
 
 #nav ul a:hover {
