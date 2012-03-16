@@ -29,7 +29,8 @@
 }
 
 #nav li a:hover {
-    color:#ffffff;
+    /*color:#1C3A7A;*/
+    color:#A01B1E;
 }
 
 /* submenu, it's hidden by default */
@@ -47,7 +48,7 @@
     text-align: left;
     width: 350px;
     float:left;
-    background-color:#BCAB5D;
+    background-color:#FCF7C0;
 }
 
 /* display block will make the link fill the whole area of LI */
