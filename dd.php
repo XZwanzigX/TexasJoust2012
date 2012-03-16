@@ -4,12 +4,16 @@
         <link rel="stylesheet" href="css/structure.css"/>
         <link rel="stylesheet" href="css/textStyles.css"/>
         <link rel="stylesheet" href="css/dropMenu.css"/>
+        <link rel="stylesheet" href="css/navOther.css"/>
 
         <script src="js/jquery-1.2.6.min.js"></script>
         <script src="js/dropMenu.js"></script>
     </head>
-    <body>
+    <body class="other-page-body">
         <img src="img/template/blank.png" class="bottom-page">
-        <?php include('template/ddNav.php'); ?>
+
+        <div class="other-page-text">
+            <?php include('template/ddNav.php'); ?>
+        </div>
     </body>
 </html>

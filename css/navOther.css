@@ -1,47 +1,39 @@
 .home-menu-button {
     border: 0 none;
-    left: -24px;
+    left: -33px;
     position: absolute;
-    top: -92px;
 }
 .about-menu-button {
     border: 0 none;
-    left: 57px;
+    left: 39px;
     position: absolute;
-    top: -91px;
 }
 .galleries-menu-button {
     border: 0 none;
-    left: 145px;
+    left: 116px;
     position: absolute;
-    top: -89px;
 }
 .special-info-menu-button {
-    left: 257px;
+    left: 218px;
     position: absolute;
-    top: -90px;
 }
 .sponsors-menu-button {
     border: 0 none;
-    left: 382px;
+    left: 333px;
     position: absolute;
-    top: -85px;
 }
 .contact-menu-button {
     border: 0 none;
-    left: 527px;
+    left: 470px;
     position: absolute;
-    top: -82px;
 }
 .directions-menu-button {
     border: 0 none;
-    left: 656px;
+    left: 588px;
     position: absolute;
-    top: -81px;
 }
 .tickets-menu-button {
     border: 0 none;
-    left: 767px;
+    left: 691px;
     position: absolute;
-    top: -79px;
 }
