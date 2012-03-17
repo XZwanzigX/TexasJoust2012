@@ -1,6 +1,6 @@
 <html>
 <head>
-    <title>Lysts on the Lake: Tickets</title>
+    <title>Lysts on the Lake: FAQ</title>
     <link rel="stylesheet" href="css/structure.css" type="text/css" />
     <link rel="stylesheet" href="css/textStyles.css" type="text/css" />
     <link rel="stylesheet" href="css/navOther.css" type="text/css"/>

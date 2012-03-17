@@ -8,7 +8,7 @@
     <li><a href="#"  onmouseover="document.aboutButton.src='img/template/nav/aboutGlow.png'" onmouseout="document.aboutButton.src='img/template/nav/about.png'">
         <img src="img/template/nav/about.png" name="aboutButton"></a>
         <ul>
-            <li><a href="#">The Tournament</a></li>
+            <li><a href="tournaments.php">The Tournament</a></li>
             <li><a href="competitors.php">The Competitors</a></li>
             <li><a href="schedule.php">2012 Schedule of Events</a></li>
             <li><a href="http://www.chivalricmartialartsinternational.com" target="_new">Chivalric Marital Arts International Symposium</a></li>
