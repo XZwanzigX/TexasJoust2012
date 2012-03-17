@@ -2,3 +2,9 @@
     position: absolute;
     left: -33px;
 }
+
+.text-container {
+    position: relative;
+    margin:0 auto; top: 100px;
+    width: 860px;
+}
