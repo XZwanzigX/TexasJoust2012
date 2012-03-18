@@ -14,8 +14,8 @@
 
 .home-content-pane {
     position: relative;
-    width: 860px;
-    margin: 785px auto 0;
+    width: 876px;
+    margin: 719px auto 0;
 }
 
 .competitor-page-text {
@@ -48,7 +48,7 @@
     float: right;
     position: relative;
     left: 63px;
-    top:  99px;
+    top:  64px;
     width: 200px;
 }
 
@@ -64,4 +64,10 @@
 
 img {
     border: 0 none;
+}
+
+.text-container {
+    position: relative;
+    margin:0 auto; top: 100px;
+    width: 860px;
 }

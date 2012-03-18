@@ -43,6 +43,19 @@ function fadeSlideShow(settingarg){
 	setting.closebutton=(setting.descreveal=="always")? '<img class="close" src="'+closebutt[0]+'" style="float:right;cursor:hand;cursor:pointer;width:'+closebutt[1]+'px;height:'+closebutt[2]+'px;margin-left:2px" title="Hide Description" />' : ''
 	var slideshow=this
 	jQuery(document).ready(function($){ //fire on DOM ready
+
+        $('#nav li').hover(
+            function () {
+                //show its submenu
+                $('ul', this).slideDown(100);
+
+            },
+            function () {
+                //hide its submenu
+                $('ul', this).slideUp(100);
+            }
+        );
+
 		var setting=slideshow.setting
 		var fullhtml=fadeSlideShow.routines.getFullHTML(setting.imagearray) //get full HTML of entire slideshow
 		setting.$wrapperdiv=$('#'+setting.wrapperid).css({position:'relative', visibility:'visible', overflow:'hidden', width:setting.dimensions[0], height:setting.dimensions[1]}).empty() //main slideshow DIV
