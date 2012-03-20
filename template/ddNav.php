@@ -18,8 +18,8 @@
         <a href="#"  onmouseover="document.galleriesButton.src='img/template/nav/galleriesGlow.png'" onmouseout="document.galleriesButton.src='img/template/nav/galleries.png'">
             <img src="img/template/nav/galleries.png" name="galleriesButton"></a>
         <ul>
-            <li><a href="photoGallery.php">Photos</a></li>
-            <li><a href="videoGallery.php">Videos</a></li>
+            <li><a href="http://azulox.zenfolio.com/joust2011" target="_new">Photos</a></li>
+            <li><a href="http://www.youtube.com/aplaisanceltd" target="_new">Videos</a></li>
         </ul>
     </li>
     <li>

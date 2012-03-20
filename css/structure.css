@@ -8,7 +8,9 @@
 .other-page-body {
     background: url("../img/template/bg/otherPageBG.jpg") no-repeat scroll center top transparent;
     font-family: trebuchet,arial,sans-serif;
-    font-size: 14pt;
+    font-family:trebuchet,arial,sans-serif;
+    font-size:10pt;
+    color:#333333;
     text-align: center;
 }
 
