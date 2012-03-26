@@ -1,0 +1,28 @@
+.schedule-day {
+    font-weight: bold;
+    background-color:#F9F8E4;
+
+}
+
+.eq-field  {
+    font-weight: bold;
+    background-color:#1C3A7A;
+    color: #DCE4F7;
+
+}
+
+.foot-field {
+    font-weight: bold;
+    background-color:#A01B1E;
+    color: #DCE4F7;
+}
+
+TABLE, TD {
+    border: 1px solid black;
+    width: 840px;
+}
+
+TD {
+    vertical-align: text-top;
+    text-align: center;
+}
