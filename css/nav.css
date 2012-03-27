@@ -1,4 +1,5 @@
 .menu-div {
     position: absolute;
     left: -33px;
+    z-index: 500;
 }

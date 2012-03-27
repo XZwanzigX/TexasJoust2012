@@ -13,12 +13,7 @@
     </head>
 
     <body class="home-body">
-        <?php include('phpIncludes/fb/fbScript.php');?>
-            <img src="img/template/blank.png" class="bottom-page">
-        <?php include('phpIncludes/fb/fbLike.php'); ?>
-        <a href="http://www.facebook.com/lystsonthelake" target="_new"><img src="img/socialNetworks/FB.png" class="fb"></a>
-        <a href="http://www.twitter.com/lystsonthelake" target="_new"><img src="img/socialNetworks/T.png" class="twitter"></a>
-        <a href="https://tix.extremetix.com/Online/?siteID=3045" target="_new"><img src="img/ticket/redTicket.gif" class="home-ticket-button"></a>
+        <img src="img/template/blank.png" class="bottom-page">
             <div class="home-content-pane">
                 <?php include('template/ddNav.php'); ?>
                 <div class="text-container">
@@ -53,5 +48,10 @@
                         <?php include('template/foot.php'); ?>
                 </div>
             </div>
+        <?php include('template/socialNet.php');?>
+        <div class="home-ticket-button">
+             <a href="https://tix.extremetix.com/Online/?siteID=3045" target="_new"><img src="img/ticket/redTicket.gif"></a>
+        </div>
+
     </body>
 </html>
