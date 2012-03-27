@@ -21,8 +21,8 @@
         <tr>
             <td><img src="img/tournaments/Joust.jpg" style="width:250px; height 250px;"></td>
             <td class="gamesDescription">
-                The Joust a' Plaisance or "Joust of Peace", contested between two individuals on horseback in a small arena known as the lists. Two competitors charge towards one another from opposite ends of the list and attempt to strike their opponent's shield with their couched lance.
-                <p>The Lysts on the Lake jousting tournament is conducted as a challenge tournament.  Each competitor will randomly select 5 other competitors with which they will compete over the 3 day event.
+                The Joust a' Plaisance or "Joust of Peace" is a contest between two individuals on horseback in a small arena known as the lists. Within the lists is a barrier/fence called the tilt.  Two competitors charge towards one another from opposite ends of the tilt and attempt to strike their opponent's shield with their couched lance.
+                <p>The Lysts on the Lake jousting tournament is conducted as a challenge tournament.  Each competitor will randomly select 4 other competitors with which they will compete over the 3 day event.
             </td>
         </tr>
     </table>

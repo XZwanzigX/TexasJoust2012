@@ -10,5 +10,7 @@
     <script type="text/javascript" src="js/dropMenu.js"></script>
 </head>
 
-<?php include('phpIncludes/comingSoon.php');?>
+<?php include('template/otherPageBegin.php');?>
+<p>A total of 23 competitors participated in at least one of the equestrian skills divisions, most competitors participated in all three equestrian skills divisions. The large number of competitors, 18 of which participated in the Joust a'Plaisance, made "Lysts on the Lake 2011" the <b>largest competitive jousting tournament ever held in North America.</b></p>
+<?php include('template/otherPageEnd.php'); ?>
 </html>
