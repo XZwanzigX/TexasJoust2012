@@ -25,9 +25,9 @@
             <img src="img/headings/competitors.png" style="position: relative; margin: 0 auto;"/>
             <table>
                 <?php
-                include '../../db/devConfig.php';
-                include '../../db/devConnection.php';
-                include '../../db/retrieveCompetitors.php';
+                include '../db/dbConfig.php';
+                include '../db/dbConnection.php';
+                include '../db/retrieveCompetitors.php';
                 ?>
                 </tr>
             </table>
