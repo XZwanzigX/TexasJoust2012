@@ -9,7 +9,8 @@
         <img src="img/template/nav/about.png" name="aboutButton"></a>
         <ul>
             <li><a href="http://www.taylorrodeo.com">The Venue</a></li>
-            <li><a href="tournaments.php">The Tournament</a></li>
+            <li><a href="joust.php">The Joust & Melee a'Cheval</a></li>
+            <li><a href="skillAtArms.php">Skill at Arms</a></li>
             <li><a href="competitors.php">The Competitors</a></li>
             <li><a href="schedule.php">2012 Schedule of Events</a></li>
             <li><a href="http://www.chivalricmartialartsinternational.com" target="_new">Chivalric Marital Arts International Symposium</a></li>
