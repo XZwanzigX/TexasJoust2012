@@ -1,8 +1,10 @@
-.scheduleHeading {
+.event-heading {
    text-decoration: underline;
-   font-size: 12pt;
+   font-size: 16pt;
    font-family:trebuchet,arial,sans-serif;
    font-weight: bold;
+   text-align: center;
+   margin: 0 auto;
    color:#CA0F0B;
 }
 .home-heading {
@@ -147,6 +149,10 @@
 
 a:hover {
     text-decoration: underline;
+}
+a {
+    color:#1D3A7E;
+    text-decoration:none;
 }
 
 P {

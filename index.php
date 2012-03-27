@@ -9,11 +9,16 @@
         <script type="text/javascript" src="js/jquery-1.2.6.min.js"></script>
         <script type="text/javascript" src="js/fadeslideshow.js"></script>
         <script type="text/javascript" src="js/slideshow.js"></script>
+        <script type="text/javascript" src="js/likeScript.js"></script>
     </head>
 
     <body class="home-body">
-<!--            <img src="img/template/blank.png" class="bottom-page">-->
-
+        <?php include('phpIncludes/fb/fbScript.php');?>
+            <img src="img/template/blank.png" class="bottom-page">
+        <?php include('phpIncludes/fb/fbLike.php'); ?>
+        <a href="http://www.facebook.com/lystsonthelake" target="_new"><img src="img/socialNetworks/FB.png" class="fb"></a>
+        <a href="http://www.twitter.com/lystsonthelake" target="_new"><img src="img/socialNetworks/T.png" class="twitter"></a>
+        <a href="https://tix.extremetix.com/Online/?siteID=3045" target="_new"><img src="img/ticket/redTicket.gif" class="home-ticket-button"></a>
             <div class="home-content-pane">
                 <?php include('template/ddNav.php'); ?>
                 <div class="text-container">

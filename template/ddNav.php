@@ -8,6 +8,7 @@
     <li><a href="#"  onmouseover="document.aboutButton.src='img/template/nav/aboutGlow.png'" onmouseout="document.aboutButton.src='img/template/nav/about.png'">
         <img src="img/template/nav/about.png" name="aboutButton"></a>
         <ul>
+            <li><a href="http://www.taylorrodeo.com">The Venue</a></li>
             <li><a href="tournaments.php">The Tournament</a></li>
             <li><a href="competitors.php">The Competitors</a></li>
             <li><a href="schedule.php">2012 Schedule of Events</a></li>
@@ -58,7 +59,7 @@
             <img src="img/template/nav/directions.png" name="directionsButton"></a>
     </li>
     <li>
-        <a href="tickets.php" onmouseover="document.ticketsButton.src='img/template/nav/ticketsGlow.png'" onmouseout="document.ticketsButton.src='img/template/nav/tickets.png'">
+        <a href="https://tix.extremetix.com/Online/?siteID=3045" onmouseover="document.ticketsButton.src='img/template/nav/ticketsGlow.png'" onmouseout="document.ticketsButton.src='img/template/nav/tickets.png'">
             <img src="img/template/nav/tickets.png" name="ticketsButton"></a>
     </li>
 </ul>

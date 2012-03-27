@@ -17,7 +17,7 @@
 .home-content-pane {
     position: relative;
     width: 876px;
-    margin: 719px auto 0;
+    margin: 689px auto 0;
 }
 
 .competitor-page-text {
@@ -73,4 +73,31 @@ img {
     position: relative;
     margin:0 auto; top: 100px;
     width: 860px;
+}
+
+.home-ticket-button {
+    border: 0 none;
+    left: 1314px;
+    position: absolute;
+    top: 785px;
+}
+
+.fb-like {
+    left: 605px;
+    position: absolute;
+    top: 595px;
+}
+
+.fb {
+    left: 1430px;
+    position: absolute;
+    top: 580px;
+    border: 0;
+}
+
+.twitter {
+    left: 1619px;
+    position: absolute;
+    top: 580px;
+    border: 0;
 }
