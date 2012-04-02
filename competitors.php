@@ -8,6 +8,8 @@
 
         <script type="text/javascript" src="js/jquery-1.2.6.min.js"></script>
         <script type="text/javascript" src="js/dropMenu.js"></script>
+        <script src="js/goog.js"></script>
+
     </head>
     <body class="other-page-body">
     <img src="img/template/blank.png" class="bottom-page">
@@ -16,7 +18,11 @@
         <div class="text-container">
             <table style="position: relative; margin: 0 auto;">
                 <tr>
-                    <td class="competitorName"><img src="img/competitors/thumbnails/DawnHemphill.png" class="competitorThumbnail"/><br>Dawn Hemphill<br>Lady of Honour</td>
+                    <td class="competitorName">
+                        <a href="individualCompetitor.php?id=44">
+                            <img src="img/competitors/thumbnails/DawnHemphill.png" class="competitorThumbnail"/><br>Dawn Hemphill<br>Lady of Honour
+                        </a>
+                    </td>
                     <td class="competitorName">
                         <img src="img/competitors/thumbnails/MichaelCarroll.png" class="competitorThumbnail"/><br>Michael Carroll<br>King of Arms
                     </td>
@@ -28,12 +34,13 @@
                 include '../db/dbConfig.php';
                 include '../db/dbConnection.php';
                 include '../db/retrieveCompetitors.php';
+
+//                include '../../db/devConfig.php';
+//                include '../../db/devConnection.php';
+//                include '../../db/retrieveCompetitors.php';
                 ?>
                 </tr>
             </table>
-            <!-- <a href="http://www.aplaisance.com" onmouseover="document.aPlaisance.src='img/template/nav/aPlaisanceGlow.png';" onmouseout="document.aPlaisance.src='img/template/nav/aPlaisance.png'">
-                <img src="img/template/nav/aPlaisance.png" name="aPlaisance" border="0" style="position: relative; margin:0 auto; top: -57px;">
-            </a>-->
         </div>
     </div>
     </body>

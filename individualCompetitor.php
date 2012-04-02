@@ -1,30 +1,23 @@
 <html>
 	<head>
-        <link rel="stylesheet" href="css/textStyles.css" type="text/css"/>
-        <link rel="stylesheet" href="css/styles.css" type="text/css"/>
-        <link type="text/css" href="css/jquery.jscrollpane.css" rel="stylesheet" media="all" />
-        <link rel="stylesheet" href="css/scrollbar.css" type="text/css" media="all"/>
-f        <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js">
-        </script>
+        <link rel="stylesheet" href="css/dropMenu.css"/>
+        <link rel="stylesheet" href="css/navOther.css"/>
+        <link rel="stylesheet" href="css/styles.css" type="text/css">
+        <link rel="stylesheet" href="css/textStyles.css" type="text/css" media="all"/>
+        <link rel="stylesheet" href="css/structure.css" type="text/css"/>
 
-        <script type="text/javascript" src="js/jquery.mousewheel.js"></script>
-        <script type="text/javascript" src="js/jquery.jscrollpane.min.js"></script>
+        <script src="js/jquery-1.2.6.min.js"></script>
+        <script src="js/dropMenu.js"></script>
+        <script src="js/goog.js"></script>
 
-        <script type="text/javascript">
-            $(function()
-            {
-                $('.individualCompetitorText').jScrollPane({
-                    showArrows:true,
-                    verticalDragMinHeight: 28,
-			        verticalDragMaxHeight: 28
-                });
-            });
-        </script>
         <?php
                 include '../db/dbConfig.php';
                 include '../db/dbConnection.php';
                 include '../db/competitorInfo.php';
 
+//                include '../../db/devConfig.php';
+//                include '../../db/devConnection.php';
+//                include '../../db/competitorInfo.php';
                 $info = getCompetitorInfo();
 
         ?>
@@ -34,11 +27,11 @@ f        <script type="text/javascript" src="http://ajax.googleapis.com/ajax/lib
 	<?php include('template/otherPageBegin.php'); ?>
 <?php
 
-                echo "             <div id=\"competitorName\" style=\"width:361px; height:90px; margin:0 auto;\">\n";
+                echo "             <div id=\"competitorName\" style=\"width:361px; height:144px; margin:0 auto;\">\n";
                 echo "                <img src=\"img/competitors/competitorNames/" . $info['shortName'] . ".png\"/>\n";
                 echo "                </div>";
                 echo "            <div id=\"bodyText\" class=\"individualCompetitorText\">\n";
-                echo "<div id=\"competitorImages\" style=\"height:216px; width:360px; margin:0 auto; text-align:center;\">";   
+                echo "<div id=\"competitorImages\" style=\"margin:0 auto; text-align:center;\">";
 				echo "				<table class=\"centerForm\">\n";
 				echo "		<tr>\n";
 				echo "			<td><img src=\"img/competitors/largeArms/" . $info['shortName'] . ".png\"/></td>\n";
@@ -47,7 +40,19 @@ f        <script type="text/javascript" src="http://ajax.googleapis.com/ajax/lib
 				echo "	</table>\n";
 				echo "</div>\n";
               echo "<table class=\"centerForm\">\n";
-                
+                $i = 0;
+                $events = array();
+                if ($info['joust']) { $events[$i] = 'Joust'; ++$i;}
+                if ($info['melee']) { $events[$i] = 'Melee aCheval'; ++$i; }
+                if ($info['saa']) { $events[$i] = 'Skill at Arms'; ++$i; }
+
+                if($events) {
+                    echo "       <tr>\n";
+                    echo "           <td class=\"bioHeading\">Competing In:</td>\n";
+                    echo "           <td class=\"bioData\">" . implode(', ', $events) . "</td>";
+                    echo "       </tr>\n";
+                }
+
                 if ($info['height'] != '-') {
 				    echo "          <tr>\n";
 				    echo "             <td class=\"bioHeading\">Height:</td>\n";
@@ -85,7 +90,7 @@ f        <script type="text/javascript" src="http://ajax.googleapis.com/ajax/lib
 
 		     echo "   </table>\n";
 			 
-			 if ($info['bio'] != '-') {
+			 if ($info['bio'] != "'-'") {
                  echo "           <div id=\"competitorBio\">";
 			     echo "<p>" . $info['bio']; "</p></div>\n";
 		     }

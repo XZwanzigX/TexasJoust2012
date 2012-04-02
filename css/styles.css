@@ -1,12 +1,3 @@
-.bodyBg {background-color:#261908; text-align:center;}
-
-.contentPane {width:960px; height: 900px; margin:0 auto; position:relative;text-align:left;}
-.winnerPane {
-	width:426px;
-	height:383px;
-	overflow:auto;
-}
-
 .homePageText {
     text-align:justify; 
     width:420px; 
@@ -17,102 +8,21 @@
     color:#333333
 }
 
-.textLink {color:#1D3A7E; text-decoration:none;}
-
-.contactLink {color:#1D3A7E; text-decoration:none; font-size: 12pt; position: absolute; left:550px; top: 63px;}
-
-.contactLinkH {color:#1D3A7E; text-decoration:none; font-size: 12pt; position: absolute; left:550px; top: 764px;}
-
-.slideshow {
-    position:absolute; 
-    left:680px;
-    top: 35px;
-    border-width:5px; 
-    border-style:solid; 
-    border-color:#2A1E08; 
-    width:238px;
-    height:331px;
-}
-
-.regularBodyText{
-    text-align:justify; 
-    padding:5px 15px;
-    width:546px;
-    height:426px;
-    overflow: auto;
-    font-family:trebuchet,arial,sans-serif;
-    font-size:10pt;
-    color:#333333; 
-    position:relative;
-    top:25px;
-}
-
-.competitorBodyText{
-    text-align:justify;
-    padding:5px 15px;
-    width:546px;
-    height:446px;
-    overflow: auto;
-    font-family:trebuchet,arial,sans-serif;
-    font-size:10pt;
-    color:#333333;
-    position:relative;
-    top:25px;
-}
-
-.entertainmentBodyText{
-    text-align:justify; 
-    padding:5px 15px;
-    width:546px;
-    height:446px;
-    overflow: auto;
-    font-family:trebuchet,arial,sans-serif;
-    font-size:10pt;
-    color:#333333; 
-    position:relative;
-    top:25px;
-}
 .individualCompetitorText {
-    text-align:justify;
-    padding:5px 15px;
-    width:546px;
-    height:456px;
+    color: #333333;
+    font-family: trebuchet,arial,sans-serif;
+    font-size: 12pt;
     overflow: auto;
-    font-family:trebuchet,arial,sans-serif;
-    font-size:10pt;
-    color:#333333;
-    position:relative;
-    top:-25px;
-}
-.galleryButton {
-    position:relative;
-    top:315px;
-    left:740px;
-    width: 120px;
-    height:83px;
-    border:0;
+    padding: 5px 15px;
+    position: relative;
+    text-align: justify;
+    top: -25px;
+    margin: 0 auto;
 }
 
 .centerForm {
     margin:0 auto;
     text-align:center;
-}
-.bottomBarHome {
-	background-image:url('../img/template/btmBgHome.jpg'); 
-	width:960px; 
-	height:115px; 
-	position:absolute; 
-	top:785px; 
-	left:0px;
-}
-
-.bottomBarNonHome {
-	position:absolute; 
-	top: 702px; 
-	left: 0px; 
-	background-image:url('../img/template/btmBg.jpg'); 
-	width:960px; 
-	height:198px;
 }
 
 .competitorThumbnail {
@@ -120,30 +30,6 @@
     height: 100px;
     border: 0;
     vertical-align:top;
-}
-
-.competitorNoThumbnail {
-    width: 100px;
-    height: 100px;
-    border-width: 1px;
-    border-style: solid;
-    border-color:#000000;
-    vertical-align:top;     
-}
-
-.ticketImg {
-    width: 118px; /*147px;*/
-    height: 97px; /*121px;*/
-    border: 0;
-}
-
-.ticketImgHome {
-    position: absolute;
-    top : 90px;
-    left: 770px;
-    width: 118px; /*147px;*/
-    height: 97px; /*121px;*/
-    border: 0;
 }
 
 .competitorNameTag {
@@ -154,21 +40,4 @@
 
 .eventTable{
     width:860px;
-}
-
-.contactForm {
-	width:449px; 
-    height:387px; 
-    margin: 0 auto;
-    background-image:url('../img/template/bodyBgH.jpg'); 
-    padding:0;
-    overflow: hidden
-}
-
-.contactFormPosition {
-   margin: auto auto;
-   position: relative;
-   top: 70px;
-   left: 50px;
-   text-align: center;
 }

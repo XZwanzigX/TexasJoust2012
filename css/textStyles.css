@@ -98,7 +98,7 @@
 
 .bioHeading {
     font-weight: bold;
-    font-size:10pt;
+    font-size:12pt;
     font-family: trebuchet, arial, sans-serif;
     color: #CA0F0B;
     width: 150px;
@@ -107,7 +107,7 @@
 
 .bioData {
     font-family:trebuchet,arial,sans-serif;
-    font-size:10pt;
+    font-size:12pt;
     color:#333333;
 }
 
@@ -153,6 +153,12 @@ a:hover {
 a {
     color:#1D3A7E;
     text-decoration:none;
+}
+
+.mobile-link {
+    color:#1D3A7E;
+    text-decoration:none;
+    font-size:16pt;
 }
 
 P {
