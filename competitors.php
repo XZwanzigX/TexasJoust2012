@@ -24,7 +24,9 @@
                         </a>
                     </td>
                     <td class="competitorName">
-                        <img src="img/competitors/thumbnails/MichaelCarroll.png" class="competitorThumbnail"/><br>Michael Carroll<br>King of Arms
+                        <a href="individualCompetitor.php?id=46">
+                            <img src="img/competitors/thumbnails/MichaelCarroll.png" class="competitorThumbnail"/><br>Michael Carroll<br>King of Arms
+                        </a>
                     </td>
                 </tr>
             </table>

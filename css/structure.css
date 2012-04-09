@@ -1,7 +1,7 @@
 .home-body {
     background: url("../img/template/bg/homeBG.jpg") no-repeat scroll center top transparent;
     font-family: trebuchet,arial,sans-serif;
-    font-size: 14pt;
+    font-size: 13pt;
     text-align: center;
 }
 
@@ -77,9 +77,10 @@ img {
 
 .home-ticket-button {
     border: 0 none;
-    left: 1314px;
-    position: absolute;
-    top: 785px;
+    /*left: 1314px;*/
+    /*position: absolute;*/
+    /*top: 785px;*/
+    float: right;
 }
 
 .fb-like {
