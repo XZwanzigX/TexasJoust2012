@@ -51,6 +51,7 @@
             <img src="img/template/nav/contactus.png" name="contactButton"></a>
         <ul>
             <li><a href="faq.php">FAQ</a></li>
+            <li><a href="emailList.php">Join our E-Mail List</a></li>
             <li><a href="contactInfo.php">Contact Info</a></li>
             <li><a href="contact.php">Want to volunteer?</a></li>
         </ul>
