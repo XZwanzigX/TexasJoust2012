@@ -30,6 +30,7 @@
         <ul>
             <li><a href="joustingHistory.php">History of Jousting</a></li>
             <li><a href="links.php">Special Links</a></li>
+            <li><a href="hotel.php">Hotel Information</a></li>
             <li><a href="pressRelease.php">Press Release</a></li>
             <li><a href="http://www.aplaisance.com" target="_blank">a'Plaisance Ltd.</a></li>
             <li><a href="2011.php">Lysts on the Lake 2011</a></li>
