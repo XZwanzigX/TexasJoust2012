@@ -44,6 +44,8 @@
             <li><a href="http://www.darkwoodarmory.com" target="_blank">Darkwood Armory</a></li>
             <li><a href="http://www.revivalclothing.com" target="_blank">Revival Clothing</a></li>
             <li><a href="http://www.knightsofiron.com/" target="_blank">Knights of Iron</a></li>
+            <li><a href="http://www.americanjouster.com" target="_blank">American Jouster</a></li>
+            <li><a href="http://www.horseboyfoundation.org" target="_blank">The Horse Boy Foundation</a></li>
         </ul>
     </li>
     <li>
