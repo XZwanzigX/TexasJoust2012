@@ -138,5 +138,9 @@
                     <td colspan="2">Site Closes</td>
                 </tr>
             </table>
+
+            <p><div class="centered-element">
+                <img src="img/DaveLadybugJoust.jpg">
+            </div>
     <?php include('template/otherPageEnd.php'); ?>
 </html>

@@ -28,7 +28,7 @@
         <a href="#"   onmouseover="document.specialInfoButton.src='img/template/nav/specialInfoGlow.png'" onmouseout="document.specialInfoButton.src='img/template/nav/specialInfo.png'">
             <img src="img/template/nav/specialInfo.png" name="specialInfoButton"></a>
         <ul>
-            <li><a href="joustingHistory.php">History of Jousting</a></li>
+            <!--<li><a href="joustingHistory.php">History of Jousting</a></li>-->
             <li><a href="links.php">Special Links</a></li>
             <!--<li><a href="hotel.php">Hotel Information</a></li>-->
             <li><a href="pressRelease.php">Press Release</a></li>
