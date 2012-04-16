@@ -11,7 +11,7 @@
             <li><a href="http://www.taylorrodeo.com" target="_blank">The Venue</a></li>
             <li><a href="joust.php">The Joust & Melee a'Cheval</a></li>
             <li><a href="skillAtArms.php">Skill at Arms</a></li>
-            <li><a href="awardOfHonor.php">Award of Honor</a></li>
+            <li><a href="awardOfHonour.php">Award of Honour</a></li>
             <li><a href="competitors.php">The Competitors</a></li>
             <li><a href="schedule.php">2012 Schedule of Events</a></li>
             <li><a href="http://www.chivalricmartialartsinternational.com" target="_blank">Chivalric Marital Arts International Symposium</a></li>
