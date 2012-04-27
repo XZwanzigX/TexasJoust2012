@@ -176,3 +176,7 @@ P {
     font-size: 18pt;
     text-align: center;
 }
+
+LI {
+    text-align: left;
+}

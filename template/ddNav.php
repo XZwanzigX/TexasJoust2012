@@ -14,7 +14,7 @@
             <li><a href="awardOfHonour.php">Award of Honour</a></li>
             <li><a href="competitors.php">The Competitors</a></li>
             <li><a href="schedule.php">2012 Schedule of Events</a></li>
-            <li><a href="http://www.chivalricmartialartsinternational.com" target="_blank">Chivalric Marital Arts International Symposium</a></li>
+            <li><a href="http://www.chivalricmartialartsinternational.com" target="_blank">Chivalric Martial Arts International Symposium</a></li>
         </ul>
     </li>
     <li>
