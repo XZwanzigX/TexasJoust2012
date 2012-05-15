@@ -33,7 +33,8 @@
                     <p style="text-align: center;"><span class="home-heading">COMPETITIVE JOUSTING</span><br>
 
                         Experience the Renaissance of the world's oldest extreme sport!<br>
-                        <span class="home-em">Live and in Person!</span>
+                        <span class="home-em">Live and in Person!  Rain or Shine!</span><br>
+                        (Arena and seating area are fully covered)
 
                     <p>For three days only, May 11, 12 and 13, 2012, the top jousters from around the world will be in Taylor, Texas to compete in the <em>Lysts on the Lake</em>, the world's largest competitive jousting tournament.
 
